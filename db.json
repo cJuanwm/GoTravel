@@ -1,0 +1,634 @@
+{
+    "categorias": [
+        { "id": 10, "nombre": "Cabaña" },
+        { "id": 20, "nombre": "Casa con Piscina" },
+        { "id": 30, "nombre": "Mansión" },
+        { "id": 40, "nombre": "Casa Frente a la Playa" }
+    ],
+    "propiedades": [
+        {
+            "id": 1,
+            "categorias_id": 10,
+            "title": "Machachi, Ecuador",
+            "location": "A 820 km de distancia",
+            "price": "$379,399",
+            "rating": 4.86,
+            "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-33996825/original/ae88e614-cd39-4503-b16c-e2a7a98556f5.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/miso/Hosting-33996825/original/48c95051-7020-4404-b41d-fbbe50934892.jpeg?im_w=720&im_format=avif",
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-33996825/original/bef08933-13ad-487e-89a6-8ac9c598d7b5.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 2,
+            "categorias_id": 10,
+            "title": "Sopó, Colombia",
+            "location": "A 236 km de distancia",
+            "price": "$350,400",
+            "rating": 4.99,
+            "images": [
+                "https://a0.muscache.com/im/pictures/2aae9259-4a19-47c8-a7ba-6f146e226db6.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/203c8d29-6e98-4ffa-a5dd-7f114b130691.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/5e4d14c0-e42a-47a0-a35e-801e8e2b9d0e.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 3,
+            "categorias_id": 10,
+            "title": "San Isidro, Costa Rica",
+            "location": "A 1,024 km de distancia",
+            "price": "$439,369",
+            "rating": 4.85,
+            "images": [
+                "https://a0.muscache.com/im/pictures/6cf4b65d-2c98-4968-9a15-973fd020b638.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/50520ab9-3573-4057-a5d0-805dbd4e8170.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/f40ec5be-1b1a-4934-ab01-97a1b8adbdf4.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 4,
+            "categorias_id": 10,
+            "title": "Guatape, Colombia",
+            "location": "A 43 km de distancia",
+            "price": "$560,640",
+            "rating": 4.84,
+            "images": [
+                "https://a0.muscache.com/im/pictures/c198ff31-dbdd-464e-87ab-0565b70b4b31.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/30cda04c-5a71-4803-9c76-62abdb0dce39.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/eda7b732-f19e-47db-9fc5-c545d94666bc.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 5,
+            "categorias_id": 10,
+            "title": "El Jardin, Costa Rica",
+            "location": "A 1,001 km de distancia",
+            "price": "$370,127",
+            "rating": 4.94,
+            "images": [
+                "https://a0.muscache.com/im/pictures/f4628b7c-1fb1-4946-888f-849d4a778abb.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-30036754/original/997bf994-0201-4a57-969f-60ed982cd9c7.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/53fa51b9-9efc-43a5-814c-21987658f828.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 6,
+            "categorias_id": 10,
+            "title": "Pradera, Colombia",
+            "location": "A 324 km de distancia",
+            "price": "$338,720",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-929702949017551606/original/4068f86d-6185-491b-bea6-52e91493e9b7.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-929702949017551606/original/b2cb139b-af41-4a40-9c65-109954c2cd6b.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/airflow/Hosting-929702949017551606/original/0143056b-aefc-4e64-ae2a-a7cad0c09de9.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 7,
+            "categorias_id": 10,
+            "title": "San Luis, Grecia, Costa rica",
+            "location": "A 1,053 km de distancia",
+            "price": "$172,460",
+            "rating": 4.89,
+            "images": [
+                "https://a0.muscache.com/im/pictures/2571c0ce-0622-4ec2-a024-2dd84922b272.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/c1707e9d-d9d2-40c2-aae0-74822d904010.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/174fe0dd-0f54-4a92-9553-baaf372ba369.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 8,
+            "categorias_id": 10,
+            "title": "San Rfael, Colombia",
+            "location": "A 53 km de distancia",
+            "price": "$309,520",
+            "rating": 4.88,
+            "images": [
+                "https://a0.muscache.com/im/pictures/b6eb1fac-2021-43f9-9c82-6f18ac95a4e9.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-47926230/original/68c8d8f0-2bb2-485c-bbfe-00b9a889a14e.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/517ba087-ae03-4f1d-a801-7d75f87f0bf6.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 9,
+            "categorias_id": 10,
+            "title": "La Fortuna, Costa Rica",
+            "location": "A 1,101 km de distancia",
+            "price": "$351,495",
+            "rating": 4.81,
+            "images": [
+                "https://a0.muscache.com/im/pictures/fcc642c0-90c4-4cb6-ad66-92b90401ddbe.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-44477356/original/32fd0e1a-b0dc-4ddc-bda5-c38e85af5d59.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-44477356/original/ab054163-0106-4a22-964f-21a1cad32b02.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 10,
+            "categorias_id": 10,
+            "title": "Tres de Junio, Costa Rica",
+            "location": "A 993 km de distancia",
+            "price": "$274,173",
+            "rating": 4.94,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-28153496/original/bca497cc-1515-4e4a-991b-f04d7519d4f6.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-28153496/original/d9b7139f-3876-4bc3-829f-21b53f6117b0.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-28153496/original/137a5685-4986-42c4-8e7e-be3c6f6ad485.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 11,
+            "categorias_id": 10,
+            "title": "El Ciruelo, Panamá",
+            "location": "A 520 km de distancia",
+            "price": "$416,554",
+            "rating": 4.88,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-933370811080811619/original/9212cc2e-e911-4ce0-ab43-d6b4953644df.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-933370811080811619/original/caeb96a3-0d02-411d-bffe-13ab2c481b6a.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-933370811080811619/original/276c0551-af66-4dd6-b5db-1c5eb0e44094.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 12,
+            "categorias_id": 10,
+            "title": "Sasaima, Colombia",
+            "location": "A 191 km de distancia",
+            "price": "$251,803",
+            "rating": 4.95,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-46070163/original/caa16dc7-f7fb-4380-8fd1-1970754b2561.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-46070163/original/653dc17d-4ff0-47be-8f6f-990738cf7ed8.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-46070163/original/cb69df1c-179c-451d-bd4a-ec9fbb071389.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 13,
+            "categorias_id": 20,
+            "title": "Vereda El Noral, Colombia",
+            "location": "A 14 km de distancia",
+            "price": "$845,664",
+            "rating": 4.98,
+            "images": [
+                "https://a0.muscache.com/im/pictures/847ed2bf-f3d1-4b97-9e86-ca5e0f4a9dda.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/afd248b8-a8e2-4b74-ab85-89cfcd189a80.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/08100d44-c326-44a9-bf6b-bcf0c97fe146.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 14,
+            "categorias_id": 20,
+            "title": "Medellín, Colombia",
+            "location": "A 5 km de distancia",
+            "price": "$737,698",
+            "rating": 4.86,
+            "images": [
+                "https://a0.muscache.com/im/pictures/9665de72-497e-4969-a223-dc286b0b7ae1.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/34661eb0-568f-416c-b4d7-5bc8404e7c76.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/73ed3f59-f4fa-4522-9312-6fedfbca469d.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 15,
+            "categorias_id": 20,
+            "title": "Copacabana, Colombia",
+            "location": "A 17 km de distancia",
+            "price": "$1,161,697",
+            "rating": 4.87,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-761705170479112191/original/a65a2ccd-9edd-41e8-a628-29f442907089.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-761705170479112191/original/66f9247a-0363-4fd2-a13c-9057d513f44f.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-761705170479112191/original/29368fb6-87b1-4695-b993-d49d17b7d49d.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 16,
+            "categorias_id": 20,
+            "title": "San Jerónimo, Colombia",
+            "location": "A 28 km de distancia",
+            "price": "$2,873,896",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1091448848266035171/original/cc039782-c693-4b86-8a67-1dbd0bae52ec.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1091448848266035171/original/4b4f18be-6ef3-4d5e-bead-98678d96592f.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1091448848266035171/original/314eb8de-5052-4f66-8533-99ad924cba26.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 17,
+            "categorias_id": 20,
+            "title": "Santa Fé de Antioquia, Colombia",
+            "location": "A 38 km de distancia",
+            "price": "$914,737",
+            "rating": 4.85,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-800979064824646790/original/9852800f-121e-4d38-a581-b3999f57f7cb.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-800979064824646790/original/f697c930-fbaa-4b15-a66f-cff52629efa2.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-800979064824646790/original/74f476a6-003c-4225-91d0-dee4c8f32b54.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 18,
+            "categorias_id": 20,
+            "title": "Vereda Curazao, Colombia",
+            "location": "A 19 km de distancia",
+            "price": "$1,752,001",
+            "rating": 4.83,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-814684190538579651/original/669efb23-3d23-4d31-9a2d-5561eb4a7f54.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-814684190538579651/original/2d6fba92-6016-4e2e-b55d-4ea7ed49ba8a.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-814684190538579651/original/fec05a4d-aa7e-47bf-9fd7-d7698e04814a.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 19,
+            "categorias_id": 20,
+            "title": "Medellín, Colombia",
+            "location": "A 7 km de distancia",
+            "price": "$3,197,136",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-903565529664202729/original/f0a3880f-2058-433d-b03c-09385e65cbae.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-903565529664202729/original/542987db-2cb1-4158-94ca-d0bca9ae16f6.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-903565529664202729/original/23213281-0afe-4ad0-bb7f-fc01103851a9.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 20,
+            "categorias_id": 20,
+            "title": "Bello, Colombia",
+            "location": "A 13 km de distancia",
+            "price": "$1,279,330",
+            "rating": 4.87,
+            "images": [
+                "https://a0.muscache.com/im/pictures/83929cc0-c1c3-4b5f-b92f-bda7faac1b12.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/642f3d6c-4bbf-4c9f-84e5-eaa50a287248.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/68ae2c92-aab5-4944-b778-30ebe9bfb725.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 21,
+            "categorias_id": 20,
+            "title": "Medellín, Colombia",
+            "location": "A 5 km de distancia",
+            "price": "$3,110,520",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1320318965542632412/original/26376f47-d0a6-4a4f-aa02-2ff147502b96.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1320318965542632412/original/a0bc6a45-4144-48e8-b120-3ccae744a864.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1320318965542632412/original/6c6cd91e-14a1-45c7-a7e1-78e7f1aa533f.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 22,
+            "categorias_id": 20,
+            "title": "Medellín, Colombia",
+            "location": "A 5 km de distancia",
+            "price": "$1,865,077",
+            "rating": 4.9,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1263947032839613762/original/984d48a8-009d-4051-9b85-fe7e9bf0c06c.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1263947032839613762/original/77f389bf-018c-4736-97de-6b88eb7b61bb.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1263947032839613762/original/dcbe2c75-e2e4-4049-91ac-33dcd6303a0c.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 23,
+            "categorias_id": 20,
+            "title": "Medellín, Colombia",
+            "location": "A 6 km de distancia",
+            "price": "$11,244,009",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1233371835951607434/original/e0d19f69-50df-4c0d-880b-0e2dc3476f0b.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIzMzM3MTgzNTk1MTYwNzQzNA%3D%3D/original/09087726-f3a9-4ca6-87b5-af231cf536d0.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIzMzM3MTgzNTk1MTYwNzQzNA%3D%3D/original/407e129b-8fcb-4e61-94e3-771a1035779f.jpeg?im_w=720&im_format=aviff"
+            ]
+        },
+        {
+            "id": 24,
+            "categorias_id": 20,
+            "title": "Medellín, Colombia",
+            "location": "A 6 km de distancia",
+            "price": "$282,500",
+            "rating": 4.73,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-45806745/original/d11d7bca-71a9-414f-ab1f-a25cca115be8.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/e3a5b018-c231-4940-9e7b-d76f3f1f4e69.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-45806745/original/6423c3c2-b409-472a-bfb8-e7cde9afeb94.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 25,
+            "categorias_id": 30,
+            "title": "Nueva Arenal, Costa Rica",
+            "location": "A 1,134 km de distancia",
+            "price": "$4,651,926",
+            "rating": 4.94,
+            "images": [
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTkzMzYxMDU5MTEyMTYxMjE2/original/03379baf-865a-49c0-83b3-b1e45765d801.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTkzMzYxMDU5MTEyMTYxMjE2/original/e345230c-3750-42cb-bafc-33eb36be549f.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTkzMzYxMDU5MTEyMTYxMjE2/original/7418f637-8713-46b6-9662-0b26ed8fe3e1.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 26,
+            "categorias_id": 30,
+            "title": "La Romana, República Dominicana",
+            "location": "A 1,532 km de distancia",
+            "price": "$45,789,566",
+            "rating": 4.73,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-973104767916951124/original/d97764b9-7098-454f-9a79-7c1822b49157.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-973104767916951124/original/86164e73-9851-4543-b33c-10b20cb64461.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-973104767916951124/original/32ded141-dc36-474e-bc7b-39c0706f5982.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 27,
+            "categorias_id": 30,
+            "title": "Bahía de Montego, Jamaica",
+            "location": "A 1,380 km de distancia",
+            "price": "$12,141,587",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-22649188/original/de15e772-a106-4621-9d2d-a9b72215be82.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/d88e5440-a166-4818-8528-c25bc71db73d.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-22649188/original/1689c363-790a-4c50-ad8a-23bcdeab2615.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 28,
+            "categorias_id": 30,
+            "title": "Pueblo Tapao, Colombia",
+            "location": "A 191 km de distancia",
+            "price": "$4,672,003",
+            "rating": 4.73,
+            "images": [
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-1080389673496159803/original/09764b6a-eb79-4c4e-9a8b-bee472173167.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-1080389673496159803/original/6728450b-1eb0-45b8-b375-79d949a6b7c6.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-1080389673496159803/original/2f2336b9-5109-497e-931b-9af60a7a6fad.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 29,
+            "categorias_id": 30,
+            "title": "La Mesa, Colombia",
+            "location": "A 219 km de distancia",
+            "price": "$3,417,316",
+            "rating": 4.92,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-52773403/original/901c2775-ce31-460e-b329-91e8554f2ad9.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-52773403/original/a785b9b9-1fa8-43df-a660-eaf7ce0a1735.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-52773403/original/fee859f3-be67-4f5c-8b73-61f23079e4b7.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 30,
+            "categorias_id": 30,
+            "title": "CW, Curazao",
+            "location": "A 973 km de distancia",
+            "price": "$5,133,717",
+            "rating": 4.92,
+            "images": [
+                "https://a0.muscache.com/im/pictures/5f1b4bd0-c597-49a3-ac1b-c9477b4792fc.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/98c7dcc6-018c-4ba9-bd85-5609d840cd3d.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/b98eb680-3bd7-4619-bba4-47510b0e6089.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 31,
+            "categorias_id": 30,
+            "title": "Jacó, Costa Rica",
+            "location": "A 1,064 km de distancia",
+            "price": "$13,968,671",
+            "rating": 4.7,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48144610/original/52f2260d-bb4f-4fef-9304-9d33e439d511.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/7246a07d-3a68-48fb-a4e5-d47f9f2d7633.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-48144610/original/869296f5-a30d-4a14-98ad-596b33be46a2.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 32,
+            "categorias_id": 30,
+            "title": "Medellín, Colombia",
+            "location": "A 6 km de distancia",
+            "price": "$11,244,009",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIzMzM3MTgzNTk1MTYwNzQzNA%3D%3D/original/240ee2af-dd4c-48c2-99d4-b1ad77944d57.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTIzMzM3MTgzNTk1MTYwNzQzNA%3D%3D/original/38c8e0be-1fc2-4495-9092-872493876ed5.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1233371835951607434/original/07ed45e6-607a-4b68-9430-75209790d127.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 33,
+            "categorias_id": 30,
+            "title": "Uvita, Costa Rica",
+            "location": "A 952 km de distancia",
+            "price": "$3,541,849",
+            "rating": 4.99,
+            "images": [
+                "https://a0.muscache.com/im/pictures/dd3c52f7-03e0-4724-95c2-32f1cee36638.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/1e325f54-f380-4e0e-9583-1075e614aa79.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/4b3fc32d-74da-4d7c-9165-db11b5e6a083.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 34,
+            "categorias_id": 30,
+            "title": "Vista Mar Golf, Panamá",
+            "location": "A 542 km de distancia",
+            "price": "$2,099,932",
+            "rating": 4.88,
+            "images": [
+                "https://a0.muscache.com/im/pictures/8d7ea588-5dd8-4dc1-b719-1eb89fb595a0.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/22337bc8-b2ab-4698-9058-389c75d1be80.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/44997b65-7d9d-4d36-b696-b6020c42e206.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 35,
+            "categorias_id": 30,
+            "title": "Envigado, Colombia",
+            "location": "A 10 km de distancia",
+            "price": "$2,540,000",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-1281079213215674888/original/389c47c9-b16b-48bc-96f0-fe1e0f152960.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI4MTA3OTIxMzIxNTY3NDg4OA%3D%3D/original/84048df9-428a-47f5-b1d8-f5e1aa40b681.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-1281079213215674888/original/da3e2db7-5c67-4c5e-ac64-fb7d5dfcb083.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 36,
+            "categorias_id": 30,
+            "title": "Juan Esteban, República Dominicana",
+            "location": "A 1,408 km de distancia",
+            "price": "$4,588,966",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1150024657059959745/original/e817cb37-ae33-4caf-a72e-e62d979d11a8.png?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1150024657059959745/original/e31a546f-85b8-487b-a96a-ad408920c920.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDAyNDY1NzA1OTk1OTc0NQ%3D%3D/original/35ac4d10-ff3a-4928-b60e-13e9d16580db.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 37,
+            "categorias_id": 40,
+            "title": "Bocas del Toro, Panamá",
+            "location": "Istmito Beach",
+            "price": "$659,054",
+            "rating": 4.92,
+            "images": [
+                "https://a0.muscache.com/im/pictures/59c0427b-73e6-4d2e-bc13-8e9b0845ddac.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-613802560570584682/original/bd14acd5-00eb-4db0-a705-2f8bc805ba18.png?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-613802560570584682/original/01a0c6f0-19e3-4865-8967-d850ae002ead.png?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 38,
+            "categorias_id": 40,
+            "title": "Santiago de Tolú, Colombia",
+            "location": "Cabañas Santiago De Tolú",
+            "price": "$5,760,000",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1003548971445736385/original/3a46cf50-b38c-488a-81ce-69f270f46eb3.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1003548971445736385/original/defd5cac-2763-44d4-bbdd-9f7a59c2359d.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1003548971445736385/original/85236caf-c35e-41af-89a4-87402fab6bc3.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 39,
+            "categorias_id": 40,
+            "title": "Palenque, Panamá",
+            "location": "A 557 km de distancia",
+            "price": "$2,826,420",
+            "rating": 4.84,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1031141754235301146/original/ccb326a6-dc31-4df0-b4b1-01f4da9f7bdc.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1031141754235301146/original/aa68f24e-6e5c-4d54-beda-97340dc843a8.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1031141754235301146/original/4b1ab6d5-f8fa-4552-9be6-a2de36a11497.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 40,
+            "categorias_id": 40,
+            "title": "Maria Chiquita, Panamá",
+            "location": "A 581 km de distancia",
+            "price": "$451,426",
+            "rating": 4.85,
+            "images": [
+                "https://a0.muscache.com/im/pictures/c14701d4-9be5-470b-a83c-429afdeed9c4.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/52ba9bf6-47d4-49b9-965d-830023e730c1.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/afa8a044-f00f-42e0-9f18-c8efed7be3f1.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 41,
+            "categorias_id": 40,
+            "title": "Rio Hato, Panamá",
+            "location": "Playa La Ensenada",
+            "price": "$2,402,484",
+            "rating": 4.93,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-773884910051925808/original/1c9cfc63-87a2-4ded-b55b-53b83c0251e0.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-773884910051925808/original/cab26ab2-6532-43a9-b1b7-29971aeb5da8.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-773884910051925808/original/76790245-48ed-48e1-af62-f4cb1ab3f296.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 42,
+            "categorias_id": 40,
+            "title": "Las Lajas, Panamá",
+            "location": "Las Lajas",
+            "price": "$2,246,589",
+            "rating": 4.84,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-727570659797579497/original/16101bc8-1311-4e28-852d-42bcd2604707.png?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-727570659797579497/original/4f6166da-460f-49a0-b862-b38f25dbfd04.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-727570659797579497/original/6c1d9a57-a41d-41a1-91f3-d1f8165a3a31.png?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 43,
+            "categorias_id": 40,
+            "title": "Rincon del Mar, Colombia",
+            "location": "A 384 km de distancia",
+            "price": "$4,588,966",
+            "rating": 4.94,
+            "images": [
+                "https://a0.muscache.com/im/pictures/8647588d-3423-4162-ab41-e2c5d6dbe0b5.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM2NTYwMzI%3D/original/db8d4191-681c-4403-a358-5c7bdeca7d24.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-13656032/original/5b865b72-9902-4eb9-86f7-750791986abf.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 44,
+            "categorias_id": 40,
+            "title": "Nuquí, Colombia",
+            "location": "A 213 km de distancia",
+            "price": "$105,120",
+            "rating": 4.93,
+            "images": [
+                "https://a0.muscache.com/im/pictures/e858cbbe-8bfa-4a6e-984e-8a55d4fb62c1.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/69a50c1f-eef9-484c-b6e4-f41bd3f75e8f.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/293c4f2b-b0c9-47a2-b5d6-e12aa7b3f0f9.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 45,
+            "categorias_id": 40,
+            "title": "La Rada, Colombia",
+            "location": "Playa del Viento",
+            "price": "$981,159",
+            "rating": 5.0,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-876345697904675857/original/71fd066f-be5a-4886-980d-13eef144de8d.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/a098f978-6f72-4b83-99f8-10308d68a024.jpg?im_w=720&im_format=aviff",
+                "https://a0.muscache.com/im/pictures/07f3b59b-0116-4666-9e0a-a81489cba078.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 46,
+            "categorias_id": 40,
+            "title": "Chame, Panamá",
+            "location": "Playa Malibú",
+            "price": "$714,824",
+            "rating": 4.77,
+            "images": [
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-543458119444795353/original/c8f8fccb-5264-4e5e-9c11-61c5965a67ff.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-543458119444795353/original/876738d0-3596-4223-a5ca-bf7276cef764.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/prohost-api/Hosting-543458119444795353/original/986af6a6-9cb3-418a-be60-c5bbd8ab6594.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 47,
+            "categorias_id": 40,
+            "title": "San Onofre, Colombia",
+            "location": "A 388 km de distancia",
+            "price": "$584,000",
+            "rating": 4.87,
+            "images": [
+                "https://a0.muscache.com/im/pictures/d49ef83c-7cfa-432e-8774-9a2ee7b6e93c.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/e9d47519-7a5f-40e0-9424-f9d568ecf203.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/45414254-f05a-4100-a5bf-90d0a6f02706.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 48,
+            "categorias_id": 40,
+            "title": "Savaneta, Aruba",
+            "location": "Rodger's Beach",
+            "price": "$1,837,301",
+            "rating": 4.97,
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-933447714669705354/original/dbcc373a-040e-445c-beb8-ee55ebdd5de5.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-933447714669705354/original/8f1a77b0-332c-4a09-9047-100b9e9a7c36.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-933447714669705354/original/41d9ab2d-3ef3-4b56-a60b-ea8cbe90fba0.jpeg?im_w=720&im_format=avif"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+.title {
+  font-size: xx-large;
+  font-weight: 600;
+  padding: 5%;
+}
+
+.text {
+  padding: 5%;
+  text-align: left;
+  font-size: 25px;
+}

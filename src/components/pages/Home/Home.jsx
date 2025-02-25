@@ -1,16 +1,16 @@
+import { Banner } from "../../common/Banner/Banner";
+import { Acerca } from "../../common/Acerca/Acerca";
+import { Footer } from "../../common/Footer/Footer";
+import { Card } from "../../common/Card/Card";
+import { Bookins } from "../../common/Bookins/Bookins";
 
-import {Banner} from "../../common/Banner/Banner"
-import {Acerca} from "../../common/Acerca/Acerca"
-
-export function Home(){
-
-    return(
-
-        <>
-            <Banner></Banner>
-            <Acerca></Acerca>
-        
-        </>
-    )
-
+export function Home() {
+  return (
+    <>
+      <Banner></Banner>
+      <Bookins></Bookins>
+      <Acerca></Acerca>
+      <Footer></Footer>
+    </>
+  );
 }

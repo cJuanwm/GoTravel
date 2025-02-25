@@ -1,11 +1,12 @@
-export const DashBoard=()=>{
-
-return(
-
+export const DashBoard = () => {
+  return (
     <>
-        <br /><br /><br /><br /><br />
-        <h1>Holas soy el dash</h1>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Dashboard</h1>
     </>
-)
-
-}
+  );
+};
