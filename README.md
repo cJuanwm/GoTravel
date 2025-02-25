@@ -1,10 +1,15 @@
 ## Proposito App
 
-La plataforma permite a los viajeros encontrar y reservar fácilmente hoteles en cualquier destino. A través de un sistema intuitivo y seguro, los usuarios pueden explorar una amplia variedad de opciones de hospedaje, comparar precios y elegir la mejor alternativa según sus necesidades y presupuesto. El objetivo es simplificar el proceso de reserva, garantizando comodidad, confianza y acceso a alojamientos de calidad en cualquier parte del mundo. Con una experiencia de usuario optimizada, la plataforma busca hacer que la planificación de los viajes sea más sencilla y eficiente, permitiendo que los viajeros disfruten al máximo su destino sin preocupaciones.
+La plataforma permite a los viajeros encontrar y reservar fácilmente hoteles en cualquier destino.
+A través de un sistema intuitivo y seguro, los usuarios pueden explorar una amplia variedad de opciones de hospedaje,
+comparar precios y elegir la mejor alternativa según sus necesidades y presupuesto. El objetivo es simplificar el proceso de reserva,
+garantizando comodidad, confianza y acceso a alojamientos de calidad en cualquier parte del mundo. Con una experiencia de usuario optimizada,
+la plataforma busca hacer que la planificación de los viajes sea más sencilla y eficiente, permitiendo que los viajeros disfruten al máximo su destino sin preocupaciones.
 
 ## Explicacion funcionalidad Booking
 
-El componente Bookins se encarga de mostrar una lista de tarjetas (Card) con información proveniente de una API. Cada tarjeta incluye un carrusel de imágenes (CardCarousel) y detalles sobre una ubicación específica.
+El componente Bookins se encarga de mostrar una lista de tarjetas (Card) con información proveniente de una API.
+Cada tarjeta incluye un carrusel de imágenes (CardCarousel) y detalles sobre una ubicación específica.
 
 1. Bookins.js
    Descripción
@@ -44,13 +49,3 @@ left: 50%; transform: translateX(-50%); → Los centra horizontalmente.
 z-index: 10; → Asegura que estén por encima de la imagen.
 background: rgba(0, 0, 0, 0.5); → Agrega un fondo oscuro para mejorar la visibilidad.
 .carousel-container { position: relative; } → Asegura que los dots se posicionen correctamente dentro del contenedor del carrusel.
-
-ENTREGABLES
-
-1. Modifiquen el readme.md para incluir recomendaciones
-   de instalacion uso y proposito de la app
-2. agregar el componente footer a los commons
-3. refactorizar el diseño del HOME (menu, banner, acerca)
-4. crear pagina nueva llamada booking (incluir en rutas)
-5. subir el desarrollo a github con una ramma independiente haciendo
-   pull request
