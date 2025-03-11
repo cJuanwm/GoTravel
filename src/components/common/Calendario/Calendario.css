@@ -1,0 +1,55 @@
+.schedule-container {
+  overflow-x: auto;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.schedule-table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.schedule-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.time-column {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.schedule-cell {
+  transition: background-color 0.3s ease;
+}
+
+.occupied {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+}
+
+.available {
+  background-color: #f8f9fa;
+}
+
+.not-found {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}

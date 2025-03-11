@@ -8,12 +8,12 @@ la plataforma busca hacer que la planificación de los viajes sea más sencilla 
 
 ## Explicacion funcionalidad Booking
 
-El componente Bookins se encarga de mostrar una lista de tarjetas (Card) con información proveniente de una API.
+El componente Booking se encarga de mostrar una lista de tarjetas (Card) con información proveniente de una API.
 Cada tarjeta incluye un carrusel de imágenes (CardCarousel) y detalles sobre una ubicación específica.
 
-1. Bookins.js
+1. Booking.js
    Descripción
-   El componente Bookins obtiene datos desde una API y los muestra en una lista de tarjetas (Card).
+   El componente Booking obtiene datos desde una API y los muestra en una lista de tarjetas (Card).
 
 Propósito
 Obtiene datos de la API al montarse el componente (useEffect).

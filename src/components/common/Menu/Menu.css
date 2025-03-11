@@ -1,3 +1,8 @@
 .menu {
   background-color: #156cd7;
 }
+
+.logo-img {
+  height: 40px; /* Ajusta el tamaño del logo */
+  width: auto;
+}

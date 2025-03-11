@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./CardCarousel.css"; // Archivo CSS para estilos
+import "./CardCarousel.css";
 
 const CardCarousel = ({ images }) => {
   const settings = {
@@ -13,7 +13,7 @@ const CardCarousel = ({ images }) => {
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 3000,
-    arrows: true, // Puedes activar flechas si lo deseas
+    arrows: true,
   };
 
   return (
