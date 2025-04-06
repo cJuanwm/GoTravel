@@ -49,6 +49,11 @@ export function Menu() {
                   Dashboard
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/nombre">
+                  Nombre
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
