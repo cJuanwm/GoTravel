@@ -1,104 +1,58 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.title {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.select {
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.grid-container {
+.calendario-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 8rem;
 }
 
-.card {
+.calendario-card {
+  background-color: white;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.calendario-card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .card-content {
-  padding: 15px;
+  padding: 1rem;
 }
 
-.card-title {
-  font-size: 1.2rem;
-  margin: 10px 0;
-  color: #333;
+.card-content h2 {
+  margin-bottom: 0.5rem;
 }
 
-.card-text {
-  color: #555;
-}
-
-.card-price {
-  font-weight: bold;
-  color: #27ae60;
-}
-
-.card-rating {
-  color: #f39c12;
-}
-
-.image {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-.card:hover {
-  transform: scale(1.03);
-}
-
-.reserve-button {
-  background-color: #ff5a5f;
-  color: white;
+.btn-reservar {
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  padding: 10px 15px;
-  font-size: 1rem;
-  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
   cursor: pointer;
-  width: 100%;
-  margin-top: 10px;
-  transition: background 0.3s ease-in-out;
+  transition: background-color 0.2s;
 }
 
-.reserve-button:hover {
-  background-color: #e04e53;
+.btn-reservar:hover {
+  background-color: #0056b3;
 }
 
-.filter-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.select,
-.search-input {
-  padding: 10px;
-  font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  width: 45%;
+.reservas-container {
+  position: relative;
 }

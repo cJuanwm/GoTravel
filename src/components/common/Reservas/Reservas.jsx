@@ -1,29 +1,34 @@
 import { useState } from "react";
-import { datosJson } from "../Calendario/datosJson";
-import { FormularioReserva } from "../Formulario/Formulario";
+import { datosJson } from "../../../services/datosJson";
+import { CalendarioReserva } from "../Calendario/CalendarioReserva";
 import "./Reservas.css";
 
 export function Reservas() {
-  const [propiedadSeleccionada, setPropiedadSeleccionada] = useState(null);
+  const [espacioSeleccionado, setEspacioSeleccionado] = useState(null);
 
   return (
-    <div className="container">
-      <h2>Reservas Disponibles</h2>
-      <div className="grid-container">
-        {datosJson.map((prop) => (
-          <div key={prop.id} className="card">
-            <img
-              src={prop.foto[0]} // Muestra la primera foto
-              alt={prop.nombre}
-              className="image"
-            />
+    <div className="reservas-container">
+      <div className="calendario-grid">
+        {datosJson.map((espacio) => (
+          <div className="calendario-card" key={espacio.id}>
+            <div className="card-img-container">
+              {espacio.foto && (
+                <img
+                  src={espacio.foto.replace("..", "")}
+                  alt={espacio.nombre}
+                  className="card-img"
+                />
+              )}
+            </div>
             <div className="card-content">
-              <h3 className="card-title">{prop.nombre}</h3>
-              <p className="card-text">{prop.descripcion}</p>
-              <p className="card-horario">{prop.horarios}</p>
+              <h2>{espacio.nombre}</h2>
+              <p>{espacio.descripcion}</p>
+              <p>
+                <strong>Horarios:</strong> {espacio.horarios}
+              </p>
               <button
-                className="reserve-button"
-                onClick={() => setPropiedadSeleccionada(prop)}
+                className="btn-reservar"
+                onClick={() => setEspacioSeleccionado(espacio)}
               >
                 Reservar
               </button>
@@ -32,11 +37,10 @@ export function Reservas() {
         ))}
       </div>
 
-      {/* Renderizar formulario solo si hay una propiedad seleccionada */}
-      {propiedadSeleccionada && (
-        <ReservaForm
-          propiedad={propiedadSeleccionada}
-          cerrarFormulario={() => setPropiedadSeleccionada(null)}
+      {espacioSeleccionado && (
+        <CalendarioReserva
+          espacio={espacioSeleccionado}
+          onClose={() => setEspacioSeleccionado(null)}
         />
       )}
     </div>

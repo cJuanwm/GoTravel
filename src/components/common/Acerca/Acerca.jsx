@@ -6,7 +6,7 @@ export function Acerca() {
       <section className="row">
         <section className="col-12 col-md-6">
           <img
-            src="../../../../src/assets/img/asesor.png"
+            src="/public/Images/asesor.png"
             alt="imagen"
             className="img-fluid"
           />
