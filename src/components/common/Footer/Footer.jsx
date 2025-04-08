@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="content-name">
-        <h3>GestorApp</h3>
+        <h3>GoTravel</h3>
       </div>
       <div className="footer-container">
         <div class="footer-section">
@@ -59,7 +59,7 @@ export function Footer() {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p>Todos los derechos reservados. 2025 GestorApp ©</p>
+        <p>Todos los derechos reservados. 2025 GoTravel ©</p>
       </div>
     </footer>
   );
