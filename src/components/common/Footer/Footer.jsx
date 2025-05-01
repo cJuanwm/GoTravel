@@ -8,7 +8,7 @@ export function Footer() {
         <h3>GoTravel</h3>
       </div>
       <div className="footer-container">
-        <div class="footer-section">
+        <div className="footer-section">
           <h3>Acerca de</h3>
           <ul>
             <li>
